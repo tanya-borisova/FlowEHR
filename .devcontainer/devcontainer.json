@@ -24,6 +24,9 @@
 		}
 	},
 
+    "remoteEnv": {
+	  "ORG_GH_TOKEN": "${localEnv:ORG_GH_TOKEN}"
+    },
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
